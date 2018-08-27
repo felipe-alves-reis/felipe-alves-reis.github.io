@@ -3,7 +3,7 @@ function returnHTML(arr) {
   var i;
   for(i = 0; i < arr.length; i++) {
     if (i < 10) {
-      out += "<p><a href='" + arr[i].html_url + "'>" + arr[i].name + "</a> - " + arr[i].description + "</p>";
+      out += "<p><a href='" + arr[i].html_url + "' target='_blank'>" + arr[i].name + "</a> - " + arr[i].description + "</p>";
     }
   }
   
